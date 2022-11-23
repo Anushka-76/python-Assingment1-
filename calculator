@@ -1,0 +1,13 @@
+a = int(input("Enter the First number "))
+b = int(input("Enter the second number "))
+c = input("Select the Operation you want to perform '+', '-', '*', '/', '%' : "))
+if(c == '+'):
+print("a+b", a+b)
+elif(c == '-'):
+print("a-b",a-b)
+elif(c == '*'):
+print("a*b",a*b)
+elif(c == '/'):
+print("a/b",a/b)
+else:
+print("a%b",a%b)
